@@ -85,7 +85,7 @@ class Login extends React.Component {
                                         <input type="email" id="inputEmail" className="form-control"
                                                placeholder="Email" required name="email"
                                                value={email} onChange={this.handleChange}/>
-                                        <label htmlFor="inputUserame">Email</label>
+                                        <label htmlFor="inputEmail">Email</label>
                                         {submitted && !email &&
                                         <div className="text-danger">Email is required</div>
                                         }
