@@ -83,7 +83,7 @@ class Login extends React.Component {
                                 <form noValidate className="form-signin" name="form" onSubmit={this.handleSubmit}>
                                     <div className="form-label-group">
                                         <input type="email" id="inputEmail" className="form-control"
-                                               placeholder="Email" required autoFocus name="email"
+                                               placeholder="Email" required name="email"
                                                value={email} onChange={this.handleChange}/>
                                         <label htmlFor="inputUserame">Email</label>
                                         {submitted && !email &&

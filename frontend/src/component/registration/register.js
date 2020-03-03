@@ -98,7 +98,7 @@ class Register extends React.Component {
                                 <form noValidate className="form-signin" name="form" onSubmit={this.handleSubmit}>
                                     <div className="form-label-group">
                                         <input type="text" id="inputfirstName" className="form-control"
-                                               placeholder="First Name" required autoFocus name="firstName"
+                                               placeholder="First Name" required name="firstName"
                                                value={firstName} onChange={this.handleChange}/>
                                         <label htmlFor="inputfirstName">First Name</label>
                                         {submitted && !firstName &&
